@@ -14,6 +14,9 @@ class Solution {
 	$output=$start;
 	for($i=1;$i<$n;$i++){
 	  $output= $output^($start + (2*$i) );
+	  //Fastest Solution improvement
+
+	  //$output ^= $start + 2*$i ;
 	}
 	return $output;
   }
